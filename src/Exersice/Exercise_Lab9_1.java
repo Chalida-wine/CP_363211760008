@@ -48,12 +48,16 @@ public class Exercise_Lab9_1 {
                     StandardOpenOption.APPEND);
             writer.write(name);
             writer.newLine();  //ขึ้นบรรทัดใหม่
+
             writer.write(studentid);
             writer.newLine();  //ขึ้นบรรทัดใหม่
+
             writer.write(Major);
             writer.newLine();  //ขึ้นบรรทัดใหม่
+
             writer.write(phonenumber);
             writer.newLine();  //ขึ้นบรรทัดใหม่
+
             writer.write(email);
             writer.newLine();  //ขึ้นบรรทัดใหม่
 
