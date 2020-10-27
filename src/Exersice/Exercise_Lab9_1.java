@@ -43,6 +43,7 @@ public class Exercise_Lab9_1 {
         Path myPath = Paths.get("C:/Users/LabCom_MT-4/Documents/MyFileCP/myProfile.txt");
         BufferedWriter writer = null;
 
+
         try {
             writer = Files.newBufferedWriter(myPath, StandardCharsets.UTF_8,
                     StandardOpenOption.APPEND);
